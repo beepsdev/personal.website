@@ -1,0 +1,43 @@
+<div id="mainbox">
+
+    <div class="bordered center">
+        <img src="/assets/media/site/construction.gif"/>
+    </div>
+
+    <div class="bordered" id="intro" >
+        <img src="/assets/media/site/stars.png" style="max-width: 400px"/>
+        <p>
+            <span class="h1">Hey!!</span>
+            Welcome to my cool ass space. where I do cool shit all the time<br>
+            <br><br>
+            <a href="https://neocities.org"><img src="assets/media/neocities_button.gif"/></a>
+            <a href="mailto:webmaster@beeps.dev"><img src="assets/media/email_me.gif"/></a>
+
+        </p>
+    </div>
+
+    <div class="bordered">
+        <p>
+            <span class="h2">where to, sunshine?</span><br>
+            {{#each sitemap.pages}}
+            <a href="{{this}}">{{this}}</a><br>
+            {{/each}}
+        </p>
+    </div>
+    <div class="bordered">
+        <p>
+            <span class="h2">bitchin (blog)</span><br>
+            {{#each sitemap.blogs}}
+            <a href="{{this}}">{{this}}</a><br>
+            {{/each}}
+        </p>
+    </div>
+    <div class="bordered center" style="vertical-align: middle">
+        <span class="h3">funny stamps/buttons</span><br><br>
+        <p>
+            {{{stamps}}}
+        </p>
+    </div>
+
+
+</div>
