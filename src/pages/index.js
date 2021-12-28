@@ -8,7 +8,7 @@ module.exports = {
 	data: (self)=>{
 
 		return {
-			title: "Cool Page",
+			title: "Home page",
 			bloglist: new Block(path.join(__dirname, '../blocks/test/bloglist.html')),
 			stamps: new Block(path.join(__dirname, '../blocks/stuff/stampbar.html')),
 			sitemap: Sitemap

@@ -26,8 +26,8 @@ body {
 	background-image: url(/assets/media/site/bg.png);
 	border: 1px solid;
 	border-image-source: url(/assets/media/site/console.png);
-	border-image-slice: 32;
-	border-image-width: 32;
+	border-image-slice: 36;
+	border-image-width: 36;
 	border-image-outset: 8;
 	border-image-repeat: repeat;
 
