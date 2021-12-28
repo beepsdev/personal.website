@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b98aa4e-fa48-447e-a40e-8b0e22cbb086" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/media/stamps/eevees.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/media/stamps/newlambda.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/media/stamps/rightclick.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/media/stamps/xKRniLV.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640626348330</updated>
       <workItem from="1640626349680" duration="2788000" />
-      <workItem from="1640711516624" duration="18196000" />
+      <workItem from="1640711516624" duration="19772000" />
     </task>
     <task id="LOCAL-00001" summary="fuck it">
       <created>1640727377958</created>
@@ -102,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640730304494</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="forgot to add image">
+      <created>1640730643379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640730643379</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add cat and the cool people">
+      <created>1640732328504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640732328504</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +125,8 @@
     <MESSAGE value="npm scripts" />
     <MESSAGE value="css caching + fixes" />
     <MESSAGE value="stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
+    <MESSAGE value="forgot to add image" />
+    <MESSAGE value="add cat and the cool people" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cat and the cool people" />
   </component>
 </project>
