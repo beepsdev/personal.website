@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b98aa4e-fa48-447e-a40e-8b0e22cbb086" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/meta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/media/stamps/eevees.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/media/stamps/newlambda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/media/stamps/rightclick.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/media/stamps/xKRniLV.gif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640626348330</updated>
       <workItem from="1640626349680" duration="2788000" />
-      <workItem from="1640711516624" duration="17597000" />
+      <workItem from="1640711516624" duration="18196000" />
     </task>
     <task id="LOCAL-00001" summary="fuck it">
       <created>1640727377958</created>
@@ -99,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640728126964</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="stuff">
+      <created>1640730304494</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640730304494</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +112,7 @@
     <MESSAGE value="fuck it" />
     <MESSAGE value="npm scripts" />
     <MESSAGE value="css caching + fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="css caching + fixes" />
+    <MESSAGE value="stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
   </component>
 </project>
