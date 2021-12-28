@@ -8,6 +8,7 @@ module.exports = {
 		process: process.pid,
 		timestamp: new Date().toLocaleString(),
 		arch: process.arch,
-		platform: process.platform
+		platform: process.platform,
+		seed: Math.random()*5000
 	}
 }
