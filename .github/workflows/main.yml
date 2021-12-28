@@ -30,6 +30,7 @@ jobs:
           node-version: '16.x'
       - run: npm install
       - run: npm run build
+      - run: npm run build  # Need to build 2 times... bug with current sitemap
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v1
         with:
