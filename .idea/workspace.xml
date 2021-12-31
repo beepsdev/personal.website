@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f00c16c-0371-4775-9324-1efc73f52aa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/style/dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/templates/base_template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/templates/dark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/templates/dark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blog/2022/new_year_new_mobo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blog/2022/new_year_new_mobo.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/stuff/unfinished.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/stuff/unfinished.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/block.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/block.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/base_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/templates/base_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/blog_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/templates/blog_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/blog_template.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/templates/blog_template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/2021/move_to_neo.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/2021/move_to_neo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/globals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +61,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640984149657</updated>
-      <workItem from="1640984151496" duration="6652000" />
+      <workItem from="1640984151496" duration="6952000" />
     </task>
+    <task id="LOCAL-00001" summary="new year!!!!">
+      <created>1640992350215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640992350215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new year!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="new year!!!!" />
   </component>
 </project>
