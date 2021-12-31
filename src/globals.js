@@ -9,6 +9,7 @@ module.exports = {
 		timestamp: new Date().toLocaleString(),
 		arch: process.arch,
 		platform: process.platform,
-		seed: Math.random()*5000
+		seed: Math.random()*5000,
+		year: new Date().getFullYear()
 	}
 }

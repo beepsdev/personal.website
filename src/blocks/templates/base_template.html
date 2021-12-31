@@ -10,8 +10,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="/assets/style/style.css?v={{generator.seed}}">
+	<link rel="stylesheet" href="/assets/style/{{style}}.css?v={{generator.seed}}">
 </head>
+
 
 <body>
 
@@ -21,5 +22,11 @@
 	<main>
 	{{{template_content}}}
 	</main>
+
+	<footer>
+		<div class="bordered">
+			Built at {{generator.timestamp}} on a {{generator.platform}}{{generator.arch}} machine. (c) {{generator.year}}
+		</div><br>
+	</footer>
 </body>
 </html>

@@ -4,7 +4,7 @@ const Sitemap = require("../sitemap.json");
 
 module.exports = {
 
-	template: new Block(path.join(__dirname, '../blocks/base_template.html')),
+	template: new Block(path.join(__dirname, '../blocks/templates/base_template.html')),
 	data: (self)=>{
 
 		return {

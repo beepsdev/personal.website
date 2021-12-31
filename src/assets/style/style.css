@@ -33,14 +33,23 @@ body {
 
 	padding: 25px 10px;
 
-	max-width: 700px;
+	max-width: min(700px, calc(100% - 100px));
+	width: 100%;
 	margin: 50px auto;
+
+	overflow: hidden;
 
 }
 
 #intro {
 	display: flex;
 	align-items: center;
+}
+
+@media only screen and (max-width: 750px) {
+	#intro {
+		flex-wrap: wrap;
+	}
 }
 
 .center{
@@ -55,4 +64,11 @@ span.h2 {
 }
 span.h3 {
 	font-size: 24px;
+}
+
+.blog-content > p {
+	margin-bottom: 25px;
+}
+.blog-content > p:last-child {
+	margin-bottom: 0px;
 }

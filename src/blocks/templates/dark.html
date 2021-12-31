@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{site.title}} - {{title}}</title>
+
+    <meta name="description" content="{{description}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style/dark.css?v={{generator.seed}}">
+</head>
+
+
+<body>
+
+<main>
+    {{{template_content}}}
+</main>
+
+<footer>
+    <div class="bordered">
+        Built at {{generator.timestamp}} on a {{generator.platform}}{{generator.arch}} machine. (c) {{generator.year}}
+    </div><br>
+</footer>
+</body>
+</html>

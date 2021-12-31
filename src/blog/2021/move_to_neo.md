@@ -1,5 +1,5 @@
 # The move to Neo(cities)
-So, my previous "website" was a [Notion](https://notion.so) note, 
+So, my previous "website" was a [Notion](https://notion.so) note,
 Which works really well for generic content.
 anyway, this shit is way cooler **cause i fucking love old ass webdesign**
 screw the rules!!! make it look sick as FUCK!!

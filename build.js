@@ -67,7 +67,7 @@ module.exports = function(includeAssets = false){
 		SITEMAP.blogs.push(output_file.replace(OUTPUT_DIR, ''));
 
 		let x = new Block(file);
-		x.template = new Block(path.join(BLOCKS_DIR, 'blog_template.html'));
+		x.template = new Block(path.join(BLOCKS_DIR, 'templates', 'blog_template.html'));
 		x.addMeta(GLOBAL_META);
 
 		fs.mkdir(path.dirname(output_file), { recursive: true }, (err) => {
