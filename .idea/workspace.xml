@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5f00c16c-0371-4775-9324-1efc73f52aa4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/sitemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sitemap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/templates/base_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/templates/base_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,6 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="HTML" />
     <property name="javascript.nodejs.core.library.configured.version" value="17.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="17.0.5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/style" />
@@ -40,6 +50,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="ts.external.directory.path" value="C:\Users\admin\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\213.5744.279\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -49,10 +60,38 @@
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\blocks\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\AppData\Roaming\JetBrains\PhpStorm2021.3\scratches\src" />
+      <recent name="C:\Users\admin\AppData\Roaming\JetBrains\PhpStorm2021.3\scratches\src\assets\styles" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\stuff" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\blocks\templates" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\blog\2022" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.Development Server">
+    <configuration name="Build Site" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Development Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.Build Site" />
+      <item itemvalue="npm.Development Server" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,7 +101,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640984149657</updated>
-      <workItem from="1640984151496" duration="7362000" />
+      <workItem from="1640984151496" duration="7989000" />
+      <workItem from="1640993704333" duration="4101000" />
     </task>
     <task id="LOCAL-00001" summary="new year!!!!">
       <created>1640992350215</created>
@@ -78,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640992631882</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[deploy] fix sitemap">
+      <created>1640993066927</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640993066927</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new year!!!!" />
     <MESSAGE value="[deploy] new version" />
-    <option name="LAST_COMMIT_MESSAGE" value="[deploy] new version" />
+    <MESSAGE value="[deploy] fix sitemap" />
+    <option name="LAST_COMMIT_MESSAGE" value="[deploy] fix sitemap" />
   </component>
 </project>
