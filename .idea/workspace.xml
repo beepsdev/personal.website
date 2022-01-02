@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f00c16c-0371-4775-9324-1efc73f52aa4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/media/notoweb3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/media/site/beep_run.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/media/site/beep_run.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/media/site/g/email1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Characters/bei/bei.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Characters/bei/bei.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Characters/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Characters/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Characters/sterr/sterr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Characters/sterr/sterr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Characters/yves/yves.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Characters/yves/yves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about_me.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about_me.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/templates/base_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/templates/base_template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page_2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +47,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="234CoQn9uDO92qc4OG0iy5YB05M" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="HTML" />
     <property name="javascript.nodejs.core.library.configured.version" value="17.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="17.0.5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/style" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/Characters/bei" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,15 +74,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\Characters\bei" />
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\Characters" />
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\assets\media\site\g" />
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\assets\style" />
-      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\blocks\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\Characters\sterr" />
       <recent name="C:\Users\admin\AppData\Roaming\JetBrains\PhpStorm2021.3\scratches\src" />
       <recent name="C:\Users\admin\AppData\Roaming\JetBrains\PhpStorm2021.3\scratches\src\assets\styles" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\stuff" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\blocks\templates" />
-      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\blog\2022" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Development Server">
@@ -102,7 +123,9 @@
       <option name="presentableId" value="Default" />
       <updated>1640984149657</updated>
       <workItem from="1640984151496" duration="7989000" />
-      <workItem from="1640993704333" duration="4101000" />
+      <workItem from="1640993704333" duration="4601000" />
+      <workItem from="1641156171611" duration="23000" />
+      <workItem from="1641157445479" duration="8534000" />
     </task>
     <task id="LOCAL-00001" summary="new year!!!!">
       <created>1640992350215</created>
@@ -125,16 +148,33 @@
       <option name="project" value="LOCAL" />
       <updated>1640993066927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[deploy] add my button">
+      <created>1640998762582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640998762583</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[deploy] forgot to add image sorry">
+      <created>1640998829456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640998829456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new year!!!!" />
     <MESSAGE value="[deploy] new version" />
     <MESSAGE value="[deploy] fix sitemap" />
-    <option name="LAST_COMMIT_MESSAGE" value="[deploy] fix sitemap" />
+    <MESSAGE value="[deploy] add my button" />
+    <MESSAGE value="[deploy] forgot to add image sorry" />
+    <option name="LAST_COMMIT_MESSAGE" value="[deploy] forgot to add image sorry" />
   </component>
 </project>
