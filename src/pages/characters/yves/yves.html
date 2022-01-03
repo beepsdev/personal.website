@@ -13,3 +13,23 @@
 
     </div>
 </div>
+
+<div class="bordered">
+
+    <span class="h1">Gallery</span><br>
+
+    <table>
+        <tr>
+            <th>Media</th>
+            <th>Description</th>
+            <th>Author</th>
+        </tr>
+        {{#each gallery.files}}
+        <tr>
+            <td style="text-align: center;"><a href="https://awoo.download/~beep/yves/{{this.path}}.{{type}}" target="_blank"><img style="max-width: 125px; max-height: 125px;" src="https://awoo.download/~beep/yves/{{this.path}}_thumb.{{type}}"></a></td>
+            <td> {{this.description}}</td>
+            <td><a href="{{this.author_url}}" target="_blank">{{this.author_name}}</a></td>
+        </tr>
+        {{/each}}
+    </table>
+</div>

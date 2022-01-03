@@ -8,6 +8,21 @@ module.exports = {
 
         return {
             title: "Yves",
+
+            gallery: {
+
+                files: [
+                    {
+                        "path": "./sterr_and_yves",
+                        "type": "jpg",
+                        "author_url": "https://twitter.com/runekotesu",
+                        "author_name": "@runekotesu",
+                        "description": "Yves has run into sterr! I Wonder what they'll get up to"
+                    }
+                ]
+            }
+
+
         };
 
     }
