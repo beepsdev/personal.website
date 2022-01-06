@@ -5,7 +5,7 @@
   "main": "build.js",
   "website": "https://beeps.dev",
   "scripts": {
-    "build": "node index.js build",
+    "build": "node builder.js -fas",
     "serve": "node index.js serve"
   },
   "author": "BeepSterr",

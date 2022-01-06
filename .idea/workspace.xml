@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f00c16c-0371-4775-9324-1efc73f52aa4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/characters/bei/bei.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/characters/bei/bei.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/characters/yves/yves.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/characters/yves/yves.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,7 @@
       <workItem from="1641230349130" duration="7226000" />
       <workItem from="1641316788873" duration="187000" />
       <workItem from="1641322577162" duration="16886000" />
-      <workItem from="1641502361704" duration="3618000" />
+      <workItem from="1641502361704" duration="3980000" />
     </task>
     <task id="LOCAL-00001" summary="new year!!!!">
       <created>1640992350215</created>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641338973925</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[deploy] add more images, remove new years banner">
+      <created>1641506967802</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641506967802</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +216,7 @@
     <MESSAGE value="[deploy] fix capital" />
     <MESSAGE value="[deploy] add galleries" />
     <MESSAGE value="improvements to build system" />
-    <option name="LAST_COMMIT_MESSAGE" value="improvements to build system" />
+    <MESSAGE value="[deploy] add more images, remove new years banner" />
+    <option name="LAST_COMMIT_MESSAGE" value="[deploy] add more images, remove new years banner" />
   </component>
 </project>
