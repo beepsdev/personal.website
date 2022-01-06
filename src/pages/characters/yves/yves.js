@@ -10,7 +10,6 @@ module.exports = {
             title: "Yves",
 
             gallery: {
-
                 files: [
                     {
                         "path": "./sterr_and_yves",
@@ -18,10 +17,16 @@ module.exports = {
                         "author_url": "https://twitter.com/runekotesu",
                         "author_name": "@runekotesu",
                         "description": "Yves has run into sterr! I Wonder what they'll get up to"
+                    },
+                    {
+                        "path": "./angelgashapon",
+                        "type": "png",
+                        "author_url": "2",
+                        "author_name": "@angelgashapon",
+                        "description": "Yves watching a staff member work on a server from above"
                     }
                 ]
             }
-
 
         };
 

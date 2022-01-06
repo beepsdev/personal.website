@@ -13,6 +13,13 @@ module.exports = {
 
                 files: [
                     {
+                        "path": "./angelgashapon",
+                        "type": "jpg",
+                        "author_url": "https://www.instagram.com/angelgashapon",
+                        "author_name": "@angelgashapon",
+                        "description": "Bei greets you!!"
+                    },
+                    {
                         "path": "./engulfingdream",
                         "type": "png",
                         "author_url": "https://twitter.com/engulfingdream",
