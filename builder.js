@@ -174,28 +174,67 @@ async function process_stuff(options){
             }
         }
 
-        let x = new Block(project_file);
-        x.addMeta(require(path.join(PROJECT_INPUT, 'globals.js')));
+        try {
 
-        if(project_file.includes(BLOG_INPUT)){
-            x.template = new Block(path.join(PROJECT_INPUT, 'blocks', 'templates', 'blog_template.html'));
+            let x = new Block(project_file);
+            x.addMeta(require(path.join(PROJECT_INPUT, 'globals.js')));
+            x.addMeta({ dependency_registry: dependency_registry[project_file] });
+
+            console.log(x.file.name + x.file.ext);
+            //output_file = output_file.dirname(x.file.name + x.file.ext);
+
+            if(project_file.includes(BLOG_INPUT)){
+                x.template = new Block(path.join(PROJECT_INPUT, 'blocks', 'templates', 'blog_template.html'));
+            }
+
+            // blocks dont need to be published.
+            if(output_file.includes(BLOCK_OUTPUT)){
+                continue;
+            }
+
+            // JS files outside of assets are disallowed.
+            if(!project_file.includes(ASSETS_INPUT) && path.extname(project_file) === '.js'){
+                continue;
+            }
+
+            const builder_output = x.compile(path.dirname(output_file));
+            output_file = path.join(path.dirname(output_file), builder_output.filename);
+            console.log(`${project_file} => ${output_file}`)
+
+            fs.mkdirSync(path.dirname(output_file), {recursive: true});
+            fs.writeFileSync(output_file, builder_output.content);
+
+            sitemap_list.push(output_file.replace(PROJECT_OUTPUT, ''))
+
+        }catch(ex){
+            console.trace(ex);
+            fs.mkdirSync(path.dirname(output_file), {recursive: true});
+            fs.writeFileSync(output_file, `
+
+                <style>
+                body {
+                    background-color: black;
+                    font-family: 'Courier New', monospace;
+                }
+                h2 { 
+                    padding: 20px;
+                    background-color: rgba(255,255,255,0.2);
+                    color: white;
+                }
+                
+                pre {
+                    font-family: 'Courier New', monospace;
+                    color: white;
+                }
+                </style>
+            
+                <h2>${ex.toString()}</h2>
+                <pre>${ex.stack}</pre>
+            
+            `);
         }
 
-        // blocks dont need to be published.
-        if(output_file.includes(BLOCK_OUTPUT)){
-            continue;
-        }
 
-        // JS files outside of assets are disallowed.
-        if(!project_file.includes(ASSETS_INPUT) && path.extname(project_file) === '.js'){
-            continue;
-        }
-
-        console.log(`${project_file} => ${output_file}`)
-        fs.mkdirSync(path.dirname(output_file), {recursive: true});
-        fs.writeFileSync(output_file, x.render());
-
-        sitemap_list.push(output_file.replace(PROJECT_OUTPUT, ''))
 
     }
 

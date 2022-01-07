@@ -8,8 +8,7 @@ module.exports = {
 
 		return {
 			title: "Home page",
-			bloglist: new Block(path.join(__dirname, '../blocks/test/bloglist.html')),
-			stamps: new Block(path.join(__dirname, '../blocks/stuff/stampbar.html')),
+			description: "Homepage of BeepSterr",
 		};
 
 	}

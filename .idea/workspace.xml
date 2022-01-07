@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f00c16c-0371-4775-9324-1efc73f52aa4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/media/log/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/script/comcastify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/script/fartscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/script/funnies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/script/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/style/funny.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/2022/crypto_nfts_and_web3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/2022/crypto_nfts_and_web3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/characters/sterr/cat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/characters/sterr/cat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/characters/sterr/generic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/daybreak/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/daybreak/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/builder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/block.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/templates/base_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/templates/base_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/templates/dark.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/templates/dark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/globals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/characters/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/characters/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/characters/sterr/sterr.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/characters/sterr/dog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/characters/sterr/sterr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/characters/sterr/dog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +53,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/pages/characters/bei/bei.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/pages/characters/bei/bei.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/pages/characters/yves/yves.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/pages/characters/yves/yves.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/pages/characters/sterr/sterr.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/characters/sterr/dog.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/characters/sterr/dog.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.github/workflows/main.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/pages/about_me.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/pages/characters/index.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/pages/characters/index.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/pages/characters/sterr/sterr.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,7 +84,7 @@
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="HTML" />
     <property name="javascript.nodejs.core.library.configured.version" value="17.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="17.0.5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/media/site" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/characters/sterr" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -69,18 +96,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\characters\sterr" />
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\assets\media\log" />
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\blog\2022\nft" />
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\blog\2022" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\assets\media\site" />
-      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\Characters\bei" />
-      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\Characters" />
-      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\assets\media\site\g" />
-      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages" />
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\blog\2022" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\Characters\sterr" />
-      <recent name="C:\Users\admin\AppData\Roaming\JetBrains\PhpStorm2021.3\scratches\src" />
-      <recent name="C:\Users\admin\AppData\Roaming\JetBrains\PhpStorm2021.3\scratches\src\assets\styles" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Development Server">
@@ -124,7 +151,8 @@
       <workItem from="1641230349130" duration="7226000" />
       <workItem from="1641316788873" duration="187000" />
       <workItem from="1641322577162" duration="16886000" />
-      <workItem from="1641502361704" duration="4311000" />
+      <workItem from="1641502361704" duration="4474000" />
+      <workItem from="1641578817999" duration="16716000" />
     </task>
     <task id="LOCAL-00001" summary="new year!!!!">
       <created>1640992350215</created>
@@ -217,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641507495401</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[deploy] forgot about blogs, sorry for the many deploys">
+      <created>1641507663289</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1641507663289</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +274,7 @@
     <MESSAGE value="[deploy] attempt to fix deploy script" />
     <MESSAGE value="[deploy] broke the build file" />
     <MESSAGE value="[deploy] fix sitemap breaking EVERYTHING" />
-    <option name="LAST_COMMIT_MESSAGE" value="[deploy] fix sitemap breaking EVERYTHING" />
+    <MESSAGE value="[deploy] forgot about blogs, sorry for the many deploys" />
+    <option name="LAST_COMMIT_MESSAGE" value="[deploy] forgot about blogs, sorry for the many deploys" />
   </component>
 </project>

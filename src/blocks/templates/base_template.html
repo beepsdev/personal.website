@@ -11,10 +11,17 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/style/{{style}}.css?v={{generator.seed}}">
+	<link rel="stylesheet" href="/assets/style/funny.css?v={{generator.seed}}">
+	<script src="assets/script/jquery.min.js"></script>
 </head>
 
 
 <body>
+
+	<div id="cheat-window" class="hide">
+		Cheats have been activated.<br>
+		Achievements will not be awarded for the duration of this session.
+	</div>
 
 	<script>NekoType="socks"</script>
 	<h1 id=nl><script src="https://webneko.net/n20171213.js"></script><a
@@ -23,10 +30,8 @@
 	{{{template_content}}}
 	</main>
 
-	<footer>
-		<div class="bordered">
-			Built at {{generator.timestamp}} on a {{generator.platform}} {{generator.arch}} machine.
-		</div><br>
-	</footer>
+	<script src="{{generator.url}}/assets/script/fartscroll.js"></script>
+	<script src="{{generator.url}}/assets/script/funnies.js"></script>
+
 </body>
 </html>
