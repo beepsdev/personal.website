@@ -1,11 +1,6 @@
 let key_sequence = [];
 let timer = null;
 
-// Set by site generator
-window.env = '{{generator.env}}';
-window.meta = {{{json this}}}
-
-
 function enableCheats(){
     document.getElementById('cheat-window').classList.remove('hide');
     setTimeout( ()=>{
@@ -20,13 +15,12 @@ function resetKeys(){
 }
 
 window.addEventListener('keyup', (e)=> {
-    console.debug('events:keyup', e);
 
     if(timer){
         clearTimeout(timer);
     }
 
-    timer = setTimeout( resetKeys, 1000)
+    timer = setTimeout( resetKeys, 1000);
 
     key_sequence.push(e.key);
     const sequence = key_sequence.join('');
@@ -62,7 +56,6 @@ window.addEventListener('keyup', (e)=> {
         case "threedee":
             var els = document.getElementsByClassName("bordered")
             for (var i = 0; i < els.length; i++) {
-                console.log(els[i].id); //second console output
                 els[i].classList.toggle('threedee');
             }
             break;
