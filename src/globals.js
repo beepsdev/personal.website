@@ -10,8 +10,9 @@ module.exports = {
 		timestamp: new Date().toLocaleString(),
 		arch: process.arch,
 		platform: process.platform,
-		seed: Math.random()*5000,
+		seed: Math.random() * 5000,
 		year: new Date().getFullYear(),
 		env: process.env.NODE_ENV === 'production' ? 'production' : 'development'
 	},
+	"package": require('../package.json'),
 }
