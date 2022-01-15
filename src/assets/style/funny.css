@@ -61,3 +61,51 @@
         transform:rotate(360deg);
     }
 }
+
+
+html.no-css .bordered {
+    background-image: url(/assets/media/site/missing_texture.png);
+    border: deeppink double 2px;
+    box-shadow:
+            0 0 0 1px rgba(255,255,255,1),
+            0px 0px 5px 1px rgba(255,255,255,0.5);
+    background-repeat: repeat;
+    background-size: 24px 24px;
+    image-rendering: pixelated;
+    background-color: black;
+}
+html.no-css body {
+    background-image: url(/assets/media/site/missing_texture.png);
+    background-repeat: repeat;
+    background-size: 36px 36px;
+    image-rendering: pixelated;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.lua-error {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+
+    line-height: 35px;
+    height: 35px;
+    width: 400px;
+    background-color: #eef0f1;
+
+    border: outset lightgray 2px;
+
+}
+
+@keyframes flicker {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+
+.lua-error img {
+    height: 20px;
+    margin: 2px 15px 5px;
+    vertical-align:middle;
+    animation: flicker 1s ease infinite;
+}

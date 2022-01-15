@@ -26,3 +26,18 @@ Welcome to Lunar ${meta.package.version} ${window.env}
  * Source: https://github.com/beepsdev/personal.website
  * Feel free to poke around and discover things!`, console.styles.terminal);
 },800)
+
+
+window.onerror = function(event) {
+
+    let node = document.createElement('div');
+    node.innerHTML = `<img src="assets/media/log/warning.png"><span style="color: black;">Something is creating script errors.</span>`;
+    node.setAttribute('class', 'lua-error');
+    document.body.appendChild(node);
+
+    setTimeout(()=>{
+        document.body.removeChild(node);
+    }, 5000)
+
+};
+

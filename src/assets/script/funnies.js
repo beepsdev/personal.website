@@ -25,8 +25,6 @@ window.addEventListener('keyup', (e)=> {
     key_sequence.push(e.key);
     const sequence = key_sequence.join('');
 
-    console.debug(sequence);
-
     switch(sequence){
 
         case "fart":
@@ -58,6 +56,29 @@ window.addEventListener('keyup', (e)=> {
             for (var i = 0; i < els.length; i++) {
                 els[i].classList.toggle('threedee');
             }
+            break;
+
+        case "gmod":
+
+
+            document.getElementsByTagName("html")[0].classList.toggle('no-css')
+
+            var images = document.getElementsByTagName("img")
+            for (var a = 0; a < images.length; a++) {
+
+                const img = images[a];
+
+                console.log(img);
+                if(img.getAttribute('data-original-src')){
+                    img.setAttribute('src', img.getAttribute('data-original-src'));
+                }else{
+                    img.setAttribute('data-original-src', img.getAttribute('src'));
+                    img.setAttribute('src', '/assets/media/site/error.png');
+                }
+            }
+
+
+
             break;
 
         case "zzz":
