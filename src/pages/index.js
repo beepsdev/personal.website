@@ -5,12 +5,10 @@ module.exports = {
 
 	template: new Block(path.join(__dirname, '../blocks/templates/base_template.html')),
 	data: (self)=>{
-
 		return {
 			title: "Home page",
 			description: "Homepage of BeepSterr",
 		};
-
 	}
 
 }
