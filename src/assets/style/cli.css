@@ -1,0 +1,82 @@
+html, body {
+    background-color: black;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+    color: white;
+
+    text-align: center;
+}
+
+main {
+    width: 100vw;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: 25vh auto auto;
+}
+
+.gui-load{
+    transition: margin 0.5s ease;
+}
+
+.gui-load > img {
+    width: 200px;
+    filter: drop-shadow(0 0 0.1rem #ffffff);
+}
+
+div.bar {
+    margin: auto;
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    border: solid 1px white;
+
+    background: transparent;
+
+}
+
+* {
+    transition: width 0.2s ease, opacity 0.5s ease, height 0.1s ease;
+}
+
+div.progress {
+
+    width: 200px;
+    height: 3px;
+    border-radius: 2px;
+    border: solid 1px white;
+    background: white;
+
+}
+
+.hide {
+    opacity: 0;
+}
+
+.login-screen {
+
+}
+
+.login-screen > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    border: solid 4px black;
+    object-fit: cover;
+
+    margin: 5px;
+    transition: all 0.2s ease;
+
+}
+
+.login-screen > img:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 45px;
+
+    transform: translateY(-5px);
+
+}

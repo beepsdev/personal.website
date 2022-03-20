@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports = {
 
-	template: new Block(path.join(__dirname, '../blocks/templates/base_template.html')),
+	template: new Block(path.join(__dirname, '../blocks/templates/base/template.html')),
 	data: (self)=>{
 		return {
 			title: "Home page",

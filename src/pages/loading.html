@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{site.title}} - {{title}}</title>
+
+    <meta name="description" content="{{description}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style/cli.css?v={{generator.seed}}">
+
+</head>
+
+<body>
+
+<main>
+
+    <div class="gui-load">
+        <img src="assets/media/load/logo.png"><br>
+        <div class="bar">
+            <div class="progress" style="width: 0%"></div>
+        </div>
+        <div class="login-screen hide">
+            <h1>Pick User</h1>
+            <img src="assets/media/load/user1.jpg"/>
+            <img src="assets/media/load/user1.jpg"/>
+            <img src="assets/media/load/user1.jpg"/>
+        </div>
+    </div>
+
+    <script>
+
+        let progress = 0;
+        const max_progress = 99;
+
+
+        const gui = document.querySelector('.gui-load');
+        const login = document.querySelector('.login-screen');
+        const bar = document.querySelector('.bar');
+        const bar_progress = document.querySelector('.progress');
+
+        setInterval( ()=>{
+
+            progress = Math.min(max_progress, progress + Math.random()*4);
+            bar_progress.setAttribute('style', `width: ${progress}%`)
+            console.log(progress);
+
+            if(progress === max_progress){
+                bar.classList.add('hide');
+
+                setTimeout( ()=> {
+                    login.classList.remove('hide');
+                }, 1000)
+
+            }
+
+
+        }, 100)
+
+    </script>
+
+
+</main>
+
+</body>
+</html>
