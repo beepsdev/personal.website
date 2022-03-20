@@ -7,6 +7,11 @@
         text-decoration: underline;
     }
 
+    nav > a {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
     nav > a:hover {
         background-color: blue;
     }
@@ -16,11 +21,6 @@
 </style>
 <nav style="background-color:black; padding: 5px;">
     {{#each items}}
-        <a href="{{this.url}}">
-            {{#if this.new}}
-                <img src="assets/media/site/new.png" style="width: 30px; margin-right: -10px"/>
-            {{/if}}
-            {{this.name}}
-        </a>
+        <a href="{{this.url}}">{{#if this.new}}<img src="{{generator.url}}/assets/media/site/new.png" style="width: 30px; margin-right: -10px"/>{{/if}}{{this.name}}</a>
     {{/each}}
 </nav>
