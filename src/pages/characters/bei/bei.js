@@ -8,9 +8,7 @@ module.exports = {
 
         return {
             title: "Bei",
-
             gallery: {
-
                 files: [
                     {
                         "path": "./angelgashapon",
@@ -63,8 +61,6 @@ module.exports = {
                     }
                 ]
             }
-
-
         };
 
     }

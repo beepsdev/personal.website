@@ -27,10 +27,6 @@ window.addEventListener('keyup', (e)=> {
 
     switch(sequence){
 
-        case "fart":
-            fartscroll(300);
-            break;
-
         case "sepia":
             document.getElementsByTagName("html")[0].classList.toggle('sepia')
             break;

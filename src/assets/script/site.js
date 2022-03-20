@@ -19,14 +19,12 @@ console.styles = {
     `,
 }
 setTimeout( ()=>{
-    console.clear();
     console.log(`
 %cLast Login: ${ new Date().toLocaleString()} from xxx.xxx.xxx.xxx on pty/1
 Welcome to Lunar ${meta.package.version} ${window.env}
  * Source: https://github.com/beepsdev/personal.website
  * Feel free to poke around and discover things!`, console.styles.terminal);
 },800)
-
 
 window.onerror = function(event) {
 
@@ -40,4 +38,13 @@ window.onerror = function(event) {
     }, 5000)
 
 };
+
+$(document).ready(function() {
+    $("[href]").each(function() {
+        const url = new URL(this.href);
+        if (url.pathname === window.location.pathname && url.host === window.location.host) {
+            $(this).addClass("active");
+        }
+    });
+});
 

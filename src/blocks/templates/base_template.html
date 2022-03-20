@@ -12,7 +12,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/style/{{style}}.css?v={{generator.seed}}">
 	<link rel="stylesheet" href="/assets/style/funny.css?v={{generator.seed}}">
-	<script src="assets/script/jquery.min.js"></script>
 </head>
 
 
@@ -25,10 +24,11 @@
 	{{{nav}}}
 
 	<main>
-	{{{template_content}}}
+		{{{template_content}}}
 	</main>
 
-	<script src="assets/script/site.js"></script>
+	<script src="{{generator.url}}/assets/script/jquery.min.js"></script>
+	<script src="{{generator.url}}/assets/script/site.js"></script>
 	<script src="{{generator.url}}/assets/script/fartscroll.js"></script>
 	<script src="{{generator.url}}/assets/script/funnies.js"></script>
 

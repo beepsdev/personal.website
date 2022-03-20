@@ -6,9 +6,11 @@ module.exports = {
 
     data: {
         items: [
-            { name: "/Home", url: "/"},
-            { name: "/about", url: "/about_me.html"},
-            { name: "/stuff", url: "/projects.html"}
+            { name: "Home", url: "/"},
+            { name: "about", url: "/about_me.html"},
+            { name: "characters", url: "/characters/index.html"},
+            { name: "projects", url: "/stuff.html"},
+            { name: "annoy_me", url: "/discord.html", "new": true},
         ]
     }
 
