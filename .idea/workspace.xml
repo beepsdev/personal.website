@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f00c16c-0371-4775-9324-1efc73f52aa4" name="Changes" comment="stuff wip">
+    <list default="true" id="5f00c16c-0371-4775-9324-1efc73f52aa4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/steamlinker/privacy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/steamlinker/privacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/steamlinker/tos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/steamlinker/tos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +36,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.github/workflows/main.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/index.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/pages/index.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/index.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/.github/workflows/main.yml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="do-ams3-beepcubed" />
@@ -52,38 +56,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="HTML" />
-    <property name="javascript.nodejs.core.library.configured.version" value="17.2.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="17.0.5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
-    <property name="ts.external.directory.path" value="C:\Users\admin\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\213.5744.279\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/admin/PhpstormProjects/personal.website/src/pages/legal",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\legal" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\assets\media\sfx" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\assets\media\other_sites" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\characters" />
-      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\assets\media\load" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages\legal" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\assets\media\other_sites" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\blocks\templates\base" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\assets\media\lunega" />
       <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\pages" />
-      <recent name="C:\Users\admin\PhpstormProjects\personal.website\src\blog\2022" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Development Server">
@@ -139,6 +137,10 @@
       <workItem from="1647798846774" duration="16007000" />
       <workItem from="1647968669547" duration="3371000" />
       <workItem from="1648053849606" duration="7000" />
+      <workItem from="1650706284938" duration="115000" />
+      <workItem from="1651595436117" duration="29000" />
+      <workItem from="1651608982448" duration="523000" />
+      <workItem from="1653172786722" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="new year!!!!">
       <created>1640992350215</created>
@@ -343,7 +345,28 @@
       <option name="project" value="LOCAL" />
       <updated>1647814422717</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="stuff wip">
+      <created>1650706383378</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1650706383378</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Someone deleted my webhook &gt;:C [deploy]">
+      <created>1651609047124</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1651609047124</updated>
+    </task>
+    <task id="LOCAL-00032" summary="remove macos requirement from deploy script [deploy]">
+      <created>1651609130704</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1651609130704</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,8 +374,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[deploy] forgot to add image sorry" />
-    <MESSAGE value="add a lot of cool shit" />
     <MESSAGE value="[deploy] add a lot of cool shit" />
     <MESSAGE value="[deploy] fix capital" />
     <MESSAGE value="[deploy] add galleries" />
@@ -370,12 +391,14 @@
     <MESSAGE value="add site.js to main template" />
     <MESSAGE value="[deploy] Add projects page!" />
     <MESSAGE value="add gmod" />
-    <MESSAGE value="stuff wip" />
     <MESSAGE value="pre-spring cleaning and new things =D" />
     <MESSAGE value="[deploy] march live" />
     <MESSAGE value="[deploy] fix self-hosted not being available rn" />
     <MESSAGE value="[deploy] run deployment on macOS for now" />
     <MESSAGE value="[deploy] navbar fixes and deploy using PROD" />
-    <option name="LAST_COMMIT_MESSAGE" value="[deploy] navbar fixes and deploy using PROD" />
+    <MESSAGE value="stuff wip" />
+    <MESSAGE value="Someone deleted my webhook &gt;:C [deploy]" />
+    <MESSAGE value="remove macos requirement from deploy script [deploy]" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove macos requirement from deploy script [deploy]" />
   </component>
 </project>
